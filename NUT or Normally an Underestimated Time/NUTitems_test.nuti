@@ -1,0 +1,27 @@
+trait Img:
+	png
+trait Name:
+	string
+trait Weight_lbs:
+	float
+trait Length_ft:
+	float
+trait Sharpness:
+	float
+trait Vector2:
+	int
+	int
+item Sword:
+	Name
+	Img
+	Weight_lbs
+	Length_ft
+	Sharpness
+instance Sword:
+	Isaac's Sword
+	9.7
+	3.2
+	8.0
+tile Grass:
+	Img
+	Vector2
